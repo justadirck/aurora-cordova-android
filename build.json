@@ -1,0 +1,20 @@
+{
+    "android": {
+        "debug": {
+            "alias": "aurora-debug",
+            "keystore": "aurora.jks",
+            "storePassword": "aurora",
+            "password" : "aurora",
+            "keystoreType": "jks",
+            "packageType": "apk"
+        },
+        "release": {
+            "alias": "aurora-release",
+            "keystore": "aurora.jks",
+            "storePassword": "aurora",
+            "password" : "aurora",
+            "keystoreType": "jks",
+            "packageType": "apk"
+        }
+    }
+}
