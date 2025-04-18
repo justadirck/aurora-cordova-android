@@ -1,1 +1,2 @@
-keytool -genkeypair -keystore ../aurora.jks -alias aurora-debug -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkeypair -keystore ../aurora.jks -alias aurora-debug -dname "CN=justaco,OU=justadirck,O=aurora,C=debug" -storepass aurora -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkeypair -keystore ../aurora.jks -alias aurora-release -dname "CN=justaco,OU=justadirck,O=aurora,C=release" -storepass aurora -keyalg RSA -keysize 2048 -validity 10000
