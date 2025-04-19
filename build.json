@@ -6,7 +6,7 @@
             "storePassword": "aurora",
             "password" : "aurora",
             "keystoreType": "jks",
-            "packageType": "apk"
+            "packageType": "apk"       
         },
         "release": {
             "alias": "aurora-release",
